@@ -1,0 +1,56 @@
+[
+    {
+        "error_type": "missing_inn",
+        "message": {
+            "publisher_inn": "",
+            "msg_text": "Сообщение без ИНН публикатора. Тестовая запись.",
+            "date_published": "2025-04-25",
+            "type": "Подача заявления",
+            "case_number": "А60-24680/2025"
+        }
+    },
+    {
+        "error_type": "unknown_inn",
+        "message": {
+            "publisher_inn": "9999999999",
+            "msg_text": "Сообщение с несуществующим ИНН. Долг: 5 000 000 руб. АС Новосибирской области.",
+            "date_published": "2025-05-02",
+            "type": "Признание банкротом",
+            "case_number": "А60-14702/2025"
+        }
+    },
+    {
+        "error_type": "unknown_inn",
+        "message": {
+            "publisher_inn": "7705",
+            "msg_text": "Сообщение с коротким ИНН. Долг: 1 000 000 руб.",
+            "date_published": "2025-02-01",
+            "type": "Подача заявления",
+            "case_number": "А60-12345/2025"
+        }
+    },
+    {
+        "error_type": "invalid_date",
+        "message": {
+            "publisher_inn": "7701234567",
+            "organization_name": "ООО \"Альфа-Строй\"",
+            "region": "Москва",
+            "msg_text": "Сообщение с некорректной датой.",
+            "date_published": null,
+            "type": "Введение процедуры",
+            "case_number": "А60-36925/2025"
+        }
+    },
+    {
+        "error_type": "invalid_date",
+        "message": {
+            "publisher_inn": "6658123450",
+            "organization_name": "ООО \"Гамма-Трейд\"",
+            "region": "Свердловская область",
+            "msg_text": "Сообщение с датой в неизвестном формате. ООО \"Гамма-Трейд\". АС Свердловской области.",
+            "date_published": "ДАТА УТЕРЯНА",
+            "type": "Завершение процедуры",
+            "case_number": "А60-56789/2025"
+        }
+    }
+]
